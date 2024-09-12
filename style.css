@@ -1,0 +1,23 @@
+#header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #E3E6F3;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navBar li { /* li ne concerne que les pointillès*/
+  list-style: none;
+  padding: 0px 10px;
+  position: relative;
+}
